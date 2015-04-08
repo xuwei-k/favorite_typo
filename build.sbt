@@ -28,6 +28,11 @@ scalacOptions ++= (
   "-language:existentials" ::
   "-language:higherKinds" ::
   "-language:implicitConversions" ::
+  "-deprecation" ::
+  Nil
+)
+
+scalacOptions in compile ++= (
   "-Ywarn-unused" ::
   "-Ywarn-unused-import" ::
   Nil
