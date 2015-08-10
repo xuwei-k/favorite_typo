@@ -10,7 +10,7 @@ resolvers += Opts.resolver.sonatypeReleases
 
 resolvers += "twitter4j" at "http://twitter4j.org/maven2"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.7"
 
 val twitter4jVersion = "4.0.3"
 
