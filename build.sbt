@@ -48,9 +48,7 @@ resourceGenerators in Compile += task(
 
 sourcesInBase := false
 
-assemblySettings
-
-AssemblyKeys.jarName in AssemblyKeys.assembly := {
+assemblyJarName in assembly := {
   val df = new java.text.SimpleDateFormat("yyyy-MM-dd-HH-mm")
   s"${name.value}-${df.format(new java.util.Date)}-twitter4j-${twitter4jVersion}.jar"
 }
