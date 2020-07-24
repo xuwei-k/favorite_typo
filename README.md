@@ -1,5 +1,5 @@
 # favorite typo tweet
 
-[![Build Status](https://secure.travis-ci.org/xuwei-k/favorite_typo.png)](http://travis-ci.org/xuwei-k/favorite_typo)
+[![Build Status](https://travis-ci.com/xuwei-k/favorite_typo.png)](http://travis-ci.com/xuwei-k/favorite_typo)
 
 
