@@ -12,7 +12,7 @@ resolvers += "twitter4j" at "http://twitter4j.org/maven2"
 
 scalaVersion := "2.12.8"
 
-val twitter4jVersion = "4.0.3"
+val twitter4jVersion = "4.0.7"
 
 libraryDependencies ++= (
   ("org.twitter4j" % "twitter4j-stream" % twitter4jVersion) ::
