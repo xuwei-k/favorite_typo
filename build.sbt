@@ -6,7 +6,7 @@ organization := "com.github.xuwei-k"
 
 licenses += ("MIT License", url("http://www.opensource.org/licenses/mit-license.php"))
 
-scalaVersion := "2.13.6"
+scalaVersion := "2.13.7"
 
 val twitter4jVersion = "4.0.3"
 
